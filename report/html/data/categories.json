@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "pytest_assume.plugin.FailedAssumption: \n2 Failed Assumptions:\n\ntest_run.py:26: AssumptionFailure\n>>\tpytest.assume(expect_busi_code == actual_busi_code)\nAssertionError: assert False\n\ntest_run.py:27: AssumptionFailure\n>>\tpytest.assume(expect_msg == actual_msg)\nAssertionError: assert False",
+      "children" : [ {
+        "name" : "test_case[提交订单-商品数量小数-http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html-post-{\n\"X-Requested-With\":\"XMLHttpRequest\"\n}-{\n\"data\":{\n\"goods_id\":8,\n\"stock\":1.23,\n\"buy_type\":\"goods\",\n\"address_id\":1651,\n\"payment_id\":1,\n\"spec\":\"[]\",\n\"user_note\":\"\"\n}\n}-200--1-购买数量有误]",
+        "uid" : "c57fae38fd044a3d",
+        "parentUid" : "fbfed64dce76908cb06792609e96f2c5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645258755526,
+          "stop" : 1645258755706,
+          "duration" : 180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'提交订单-商品数量小数'", "-1", "'购买数量有误'", "200", "'{\n\"X-Requested-With\":\"XMLHttpRequest\"\n}'", "'post'", "'{\n\"data\":{\n\"goods_id\":8,\n\"stock\":1.23,\n\"buy_type\":\"goods\",\n\"address_id\":1651,\n\"payment_id\":1,\n\"spec\":\"[]\",\n\"user_note\":\"\"\n}\n}'", "'http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html'" ]
+      } ],
+      "uid" : "fbfed64dce76908cb06792609e96f2c5"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

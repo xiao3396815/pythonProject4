@@ -1,0 +1,89 @@
+{
+  "uid" : "d9ed7965c38dfec",
+  "name" : "test_case[提交订单-超过库存-http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html-post-{\n\"X-Requested-With\":\"XMLHttpRequest\"\n}-{\n\"data\":{\n\"goods_id\":12,\n\"stock\":9999,\n\"buy_type\":\"goods\",\n\"address_id\":1651,\n\"payment_id\":1,\n\"spec\":\"[]\",\n\"user_note\":\"\"\n}\n}-200--1-[12]购买数量超过商品库存数量[9999>0]]",
+  "fullName" : "test_run#test_case[提交订单-超过库存-http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html-post-{\n\"X-Requested-With\":\"XMLHttpRequest\"\n}-{\n\"data\":{\n\"goods_id\":12,\n\"stock\":9999,\n\"buy_type\":\"goods\",\n\"address_id\":1651,\n\"payment_id\":1,\n\"spec\":\"[]\",\n\"user_note\":\"\"\n}\n}-200--1-[12]购买数量超过商品库存数量",
+  "historyId" : "c99718226b20f0991332711005a2f83e",
+  "time" : {
+    "start" : 1645258754601,
+    "stop" : 1645258754789,
+    "duration" : 188
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1645258753104,
+      "stop" : 1645258753202,
+      "duration" : 98
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_run"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-93HH27QA"
+  }, {
+    "name" : "thread",
+    "value" : "11132-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_run"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "casename",
+    "value" : "'提交订单-超过库存'"
+  }, {
+    "name" : "expect_busi_code",
+    "value" : "-1"
+  }, {
+    "name" : "expect_msg",
+    "value" : "'[12]购买数量超过商品库存数量[9999>0]'"
+  }, {
+    "name" : "expect_status",
+    "value" : "200"
+  }, {
+    "name" : "headers",
+    "value" : "'{\n\"X-Requested-With\":\"XMLHttpRequest\"\n}'"
+  }, {
+    "name" : "method",
+    "value" : "'post'"
+  }, {
+    "name" : "params",
+    "value" : "'{\n\"data\":{\n\"goods_id\":12,\n\"stock\":9999,\n\"buy_type\":\"goods\",\n\"address_id\":1651,\n\"payment_id\":1,\n\"spec\":\"[]\",\n\"user_note\":\"\"\n}\n}'"
+  }, {
+    "name" : "url",
+    "value" : "'http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d9ed7965c38dfec.json",
+  "parameterValues" : [ "'提交订单-超过库存'", "-1", "'[12]购买数量超过商品库存数量[9999>0]'", "200", "'{\n\"X-Requested-With\":\"XMLHttpRequest\"\n}'", "'post'", "'{\n\"data\":{\n\"goods_id\":12,\n\"stock\":9999,\n\"buy_type\":\"goods\",\n\"address_id\":1651,\n\"payment_id\":1,\n\"spec\":\"[]\",\n\"user_note\":\"\"\n}\n}'", "'http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html'" ]
+}

@@ -1,0 +1,161 @@
+[ {
+  "uid" : "4027c7dcad2e7088",
+  "name" : "test_case[提交订单-商品数量为空-http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html-post-{\n\"X-Requested-With\":\"XMLHttpRequest\"\n}-{\n\"data\":{\n\"goods_id\":8,\n\"stock\":\"\",\n\"buy_type\":\"goods\",\n\"address_id\":1651,\n\"payment_id\":1,\n\"spec\":\"[]\",\n\"user_note\":\"\"\n}\n}-200--1-购买数量有误]",
+  "time" : {
+    "start" : 1645258755361,
+    "stop" : 1645258755518,
+    "duration" : 157
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7106e790b7745d0b",
+  "name" : "test_case[提交订单成功-货到付款-http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html-post-{\n\"X-Requested-With\":\"XMLHttpRequest\"\n}-{\n\"data\":{\n\"goods_id\":8,\n\"stock\":1,\n\"buy_type\":\"goods\",\n\"address_id\":1651,\n\"payment_id\":1,\n\"spec\":\"[]\",\n\"user_note\":\"\"\n}\n}-200-0-提交成功]",
+  "time" : {
+    "start" : 1645258753656,
+    "stop" : 1645258753844,
+    "duration" : 188
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0b5e365040850ba",
+  "name" : "test_case[提交订单-商品已下架-http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html-post-{\n\"X-Requested-With\":\"XMLHttpRequest\"\n}-{\n\"data\":{\n\"goods_id\":3,\n\"stock\":1,\n\"buy_type\":\"goods\",\n\"address_id\":1651,\n\"payment_id\":1,\n\"spec\":\"[]\",\n\"user_note\":\"\"\n}\n}-200--10-资源不存在或已被删除]",
+  "time" : {
+    "start" : 1645258754238,
+    "stop" : 1645258754416,
+    "duration" : 178
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea472f52ec849035",
+  "name" : "test_case[提交订单-地址id不存在-http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html-post-{\n\"X-Requested-With\":\"XMLHttpRequest\"\n}-{\n\"data\":{\n\"goods_id\":8,\n\"stock\":1,\n\"buy_type\":\"goods11\",\n\"address_id\":370,\n\"payment_id\":1,\n\"spec\":\"[]\",\n\"user_note\":\"\"\n}\n}-200--1-参数有误]",
+  "time" : {
+    "start" : 1645258756086,
+    "stop" : 1645258756241,
+    "duration" : 155
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d4bacf8145774a",
+  "name" : "test_case[提交订单成功-支付宝-http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html-post-{\n\"X-Requested-With\":\"XMLHttpRequest\"\n}-{\n\"data\":{\n\"goods_id\":8,\n\"stock\":1,\n\"buy_type\":\"goods\",\n\"address_id\":1651,\n\"payment_id\":3,\n\"spec\":\"[]\",\n\"user_note\":\"\"\n}\n}-200-0-提交成功]",
+  "time" : {
+    "start" : 1645258754043,
+    "stop" : 1645258754230,
+    "duration" : 187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7aa3184693752a2a",
+  "name" : "test_case[登录接口-http://121.42.15.146:9090/mtx/index.php?s=/index/user/login.html-post-{\n\"X-Requested-With\":\"XMLHttpRequest\"\n}-{\n\"data\":{\n\"accounts\":\"shamotest1\",\n\"pwd\":\"123456\"\n}\n}-200-0-登录成功]",
+  "time" : {
+    "start" : 1645258753203,
+    "stop" : 1645258753647,
+    "duration" : 444
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "118270c801a604be",
+  "name" : "test_case[提交订单-地址id已删除-http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html-post-{\n\"X-Requested-With\":\"XMLHttpRequest\"\n}-{\n\"data\":{\n\"goods_id\":8,\n\"stock\":1,\n\"buy_type\":\"goods11\",\n\"address_id\":370,\n\"payment_id\":1,\n\"spec\":\"[]\",\n\"user_note\":\"\"\n}\n}-200--1-参数有误]",
+  "time" : {
+    "start" : 1645258755920,
+    "stop" : 1645258756075,
+    "duration" : 155
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a8ddca751abd5d5",
+  "name" : "test_case[提交订单-buy_type不支持-http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html-post-{\n\"X-Requested-With\":\"XMLHttpRequest\"\n}-{\n\"data\":{\n\"goods_id\":8,\n\"stock\":1.23,\n\"buy_type\":\"sdds\",\n\"address_id\":1651,\n\"payment_id\":1,\n\"spec\":\"[]\",\n\"user_note\":\"\"\n}\n}-200--1-参数有误]",
+  "time" : {
+    "start" : 1645258755732,
+    "stop" : 1645258755911,
+    "duration" : 179
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64fef1591d1e2e62",
+  "name" : "test_case[提交订单-地址id是别人的-http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html-post-{\n\"X-Requested-With\":\"XMLHttpRequest\"\n}-{\n\"data\":{\n\"goods_id\":8,\n\"stock\":1,\n\"buy_type\":\"goods11\",\n\"address_id\":34,\n\"payment_id\":1,\n\"spec\":\"[]\",\n\"user_note\":\"\"\n}\n}-200--1-参数有误]",
+  "time" : {
+    "start" : 1645258756252,
+    "stop" : 1645258756425,
+    "duration" : 173
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c57fae38fd044a3d",
+  "name" : "test_case[提交订单-商品数量小数-http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html-post-{\n\"X-Requested-With\":\"XMLHttpRequest\"\n}-{\n\"data\":{\n\"goods_id\":8,\n\"stock\":1.23,\n\"buy_type\":\"goods\",\n\"address_id\":1651,\n\"payment_id\":1,\n\"spec\":\"[]\",\n\"user_note\":\"\"\n}\n}-200--1-购买数量有误]",
+  "time" : {
+    "start" : 1645258755526,
+    "stop" : 1645258755706,
+    "duration" : 180
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d82fdc9f90bf696",
+  "name" : "test_case[提交订单-数量为0-http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html-post-{\n\"X-Requested-With\":\"XMLHttpRequest\"\n}-{\n\"data\":{\n\"goods_id\":8,\n\"stock\":0,\n\"buy_type\":\"goods\",\n\"address_id\":1651,\n\"payment_id\":1,\n\"spec\":\"[]\",\n\"user_note\":\"\"\n}\n}-200--1-购买数量有误]",
+  "time" : {
+    "start" : 1645258754797,
+    "stop" : 1645258754952,
+    "duration" : 155
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9ed7965c38dfec",
+  "name" : "test_case[提交订单-超过库存-http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html-post-{\n\"X-Requested-With\":\"XMLHttpRequest\"\n}-{\n\"data\":{\n\"goods_id\":12,\n\"stock\":9999,\n\"buy_type\":\"goods\",\n\"address_id\":1651,\n\"payment_id\":1,\n\"spec\":\"[]\",\n\"user_note\":\"\"\n}\n}-200--1-[12]购买数量超过商品库存数量[9999>0]]",
+  "time" : {
+    "start" : 1645258754601,
+    "stop" : 1645258754789,
+    "duration" : 188
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "820107f784bf869",
+  "name" : "test_case[提交订单-商品已删除或不存在-http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html-post-{\n\"X-Requested-With\":\"XMLHttpRequest\"\n}-{\n\"data\":{\n\"goods_id\":888,\n\"stock\":1,\n\"buy_type\":\"goods\",\n\"address_id\":1651,\n\"payment_id\":1,\n\"spec\":\"[]\",\n\"user_note\":\"\"\n}\n}-200--10-资源不存在或已被删除]",
+  "time" : {
+    "start" : 1645258754424,
+    "stop" : 1645258754591,
+    "duration" : 167
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93151096cf264a27",
+  "name" : "test_case[提交订单-商品id为空-http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html-post-{\n\"X-Requested-With\":\"XMLHttpRequest\"\n}-{\n\"data\":{\n\"goods_id\":\"\",\n\"stock\":1,\n\"buy_type\":\"goods\",\n\"address_id\":1651,\n\"payment_id\":1,\n\"spec\":\"[]\",\n\"user_note\":\"\"\n}\n}-200--1-商品id有误]",
+  "time" : {
+    "start" : 1645258755189,
+    "stop" : 1645258755354,
+    "duration" : 165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "248cf4c840e173fa",
+  "name" : "test_case[提交订单-数量为-1-http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html-post-{\n\"X-Requested-With\":\"XMLHttpRequest\"\n}-{\n\"data\":{\n\"goods_id\":8,\n\"stock\":-1,\n\"buy_type\":\"goods\",\n\"address_id\":1651,\n\"payment_id\":1,\n\"spec\":\"[]\",\n\"user_note\":\"\"\n}\n}-200--1-购买数量有误]",
+  "time" : {
+    "start" : 1645258754960,
+    "stop" : 1645258755182,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e98fb512ce36c123",
+  "name" : "test_case[提交订单成功-现金支付-http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html-post-{\n\"X-Requested-With\":\"XMLHttpRequest\"\n}-{\n\"data\":{\n\"goods_id\":8,\n\"stock\":1,\n\"buy_type\":\"goods\",\n\"address_id\":1651,\n\"payment_id\":2,\n\"spec\":\"[]\",\n\"user_note\":\"\"\n}\n}-200-0-提交成功]",
+  "time" : {
+    "start" : 1645258753852,
+    "stop" : 1645258754035,
+    "duration" : 183
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
